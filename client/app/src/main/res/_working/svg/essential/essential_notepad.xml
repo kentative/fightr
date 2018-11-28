@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 15.5 17 h 13 c 0.553 0 1 -0.447 1 -1 s -0.447 -1 -1 -1 h -13 c -0.553 0 -1
+0.447 -1 1 S 14.947 17 15.5 17 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 15.5 48 h 13 c 0.553 0 1 -0.447 1 -1 s -0.447 -1 -1 -1 h -13 c -0.553 0 -1
+0.447 -1 1 S 14.947 48 15.5 48 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 15.5 23 h 29 c 0.553 0 1 -0.447 1 -1 s -0.447 -1 -1 -1 h -29 c -0.553 0 -1
+0.447 -1 1 S 14.947 23 15.5 23 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 15.5 35 h 29 c 0.553 0 1 -0.447 1 -1 s -0.447 -1 -1 -1 h -29 c -0.553 0 -1
+0.447 -1 1 S 14.947 35 15.5 35 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 15.5 42 h 29 c 0.553 0 1 -0.447 1 -1 s -0.447 -1 -1 -1 h -29 c -0.553 0 -1
+0.447 -1 1 S 14.947 42 15.5 42 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 15.5 29 h 14 c 0.553 0 1 -0.447 1 -1 s -0.447 -1 -1 -1 h -14 c -0.553 0 -1
+0.447 -1 1 S 14.947 29 15.5 29 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 44.5 27 h -7 c -0.553 0 -1 0.447 -1 1 s 0.447 1 1 1 h 7 c 0.553 0 1 -0.447 1
+-1 S 45.053 27 44.5 27 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 32.79 27.29 C 32.6 27.479 32.5 27.729 32.5 28 c 0 0.26 0.109 0.52 0.29 0.71 C
+32.979 28.899 33.229 29 33.5 29 c 0.27 0 0.52 -0.11 0.71 -0.29 c 0.18 -0.19 0.29
+-0.44 0.29 -0.71 c 0 -0.271 -0.101 -0.521 -0.29 -0.71 C 33.83 26.92 33.17 26.91
+32.79 27.29 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 41.5 2 h -6 V 1 c 0 -0.553 -0.447 -1 -1 -1 h -9 c -0.553 0 -1 0.447 -1 1 v 1 h
+-6 h -13 v 58 h 49 V 2 H 41.5 Z M 33.5 2 v 1 v 2 h -7 V 3 V 2 H 33.5 Z M 24.5 4
+v 2 v 1 h 1 h 9 h 1 V 6 V 4 h 5 v 1 v 3 h -21 V 5 V 4 H 24.5 Z M 17.5 9 v 1 h 1
+h 23 h 1 V 9 V 7 h 7 v 48 h -39 V 7 h 7 V 9 Z M 52.5 58 h -45 V 4 h 10 v 1 h -9
+v 52 h 43 V 5 h -9 V 4 h 10 V 58 Z" />
+</vector>

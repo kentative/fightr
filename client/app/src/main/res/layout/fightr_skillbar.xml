@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fighter="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.bytes.fightr.client.widget.image.CircularImageView
+        android:id="@+id/menu_wheel_image_01"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:elevation="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_margin="2dp"
+        android:src="@drawable/gw_rng_attack"
+        fighter:name="@string/fightr_skill_01" />
+
+    <com.bytes.fightr.client.widget.image.CircularImageView
+        android:id="@+id/menu_wheel_image_02"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:elevation="2dp"
+        android:src="@drawable/gw_mon_shield"
+        fighter:name="@string/fightr_skill_02" />
+
+    <com.bytes.fightr.client.widget.image.CircularImageView
+        android:id="@+id/menu_wheel_image_03"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:elevation="2dp"
+        android:src="@drawable/gw_rng_reload"
+        fighter:name="@string/fightr_skill_03" />
+
+    <com.bytes.fightr.client.widget.image.CircularImageView
+        android:id="@+id/menu_wheel_image_04"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:elevation="2dp"
+        android:src="@drawable/gw_rng_disrupting_shot"
+        fighter:name="@string/fightr_skill_04" />
+
+    <com.bytes.fightr.client.widget.image.CircularImageView
+        android:id="@+id/menu_wheel_image_05"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:elevation="2dp"
+        android:src="@drawable/gw_rng_punishing_shot"
+        fighter:name="@string/fightr_skill_05" />
+
+    <com.bytes.fightr.client.widget.image.CircularImageView
+        android:id="@+id/menu_wheel_image_06"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:elevation="2dp"
+        android:src="@drawable/gw_ele_blinding_flash"
+        fighter:name="@string/fightr_skill_06" />
+
+
+</merge>

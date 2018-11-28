@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.bytes.fightr">
+
+    <permission
+        android:name="com.bytes.fightr.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+
+    <uses-permission android:name="ksl.lab.compass.permission.MAPS_RECEIVE"/>
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <!-- Map Services -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"android:name="com.bytes.fightr.client.FightrApplication
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        "
+        >
+
+        <activity
+            android:name=".client.controller.login.FightrLoginActivity"
+            android:label="@string/title_activity_fighter_login"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".client.controller.lobby.FightrLobbyActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".client.controller.login.FightrLoginActivity"/>
+        </activity>
+
+
+        <activity
+            android:name=".client.controller.battle.FightrMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".client.controller.login.FightrLoginActivity"/>
+        </activity>
+
+
+        <activity
+            android:name=".client.settings.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".client.controller.battle.FightrMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".client.controller.battle.FightrMainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".client.controller.lobby.SelectFighterActivity"
+            android:label="@string/title_activity_fighter_list"
+            android:parentActivityName=".client.controller.battle.FightrMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".client.controller.battle.FightrMainActivity"/>
+        </activity>
+
+    </application>
+
+</manifest>

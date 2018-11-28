@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_root"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="7dp"
+                android:background="@drawable/bg_rectangle_gray"
+                >
+
+    <!-- Thumbnail Image -->
+
+    <ImageView
+        android:id="@+id/fightr_select_user_attack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/fightr_target3"
+        android:background="@drawable/bg_circle"
+        />
+
+    <ImageView
+        android:id="@+id/fightr_select_user_join"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toStartOf="@id/fightr_select_user_attack"
+        android:layout_alignTop="@id/fightr_select_user_attack"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_circle"
+        android:src="@drawable/fightr_shield3"
+        android:padding="4dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/fightr_select_user_image"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_rectangle"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ow_icon_pharah"
+        />
+
+    <ImageView
+        android:id="@+id/fightr_select_user_status"
+        android:layout_width="64dp"
+        android:layout_height="8dp"
+        android:src="@drawable/bg_user_online"
+        android:layout_below="@id/fightr_select_user_image"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/fightr_lobby_msg_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fightr_select_user_image"
+        android:layout_toEndOf="@+id/fightr_select_user_image"
+        android:layout_marginTop="1dp"
+        android:text="Fighter Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:textColor="@color/widget_white"
+        />
+
+    <TextView
+        android:id="@+id/lobby_select_user_hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fightr_lobby_msg_user_name"
+        android:layout_marginTop="1dp"
+        android:layout_alignStart="@+id/fightr_lobby_msg_user_name"
+        android:text="05 HP"
+        android:textSize="12dp"
+        android:textColor="@color/widget_white"
+        />
+
+    <TextView
+        android:id="@+id/lobby_select_user_ap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/lobby_select_user_hp"
+        android:layout_alignTop="@id/lobby_select_user_hp"
+        android:layout_marginStart="5dp"
+        android:text="10 AP"
+        android:textSize="12dp"
+        android:textColor="@color/widget_white"
+        />
+
+
+    <requestFocus/>
+
+
+</RelativeLayout>

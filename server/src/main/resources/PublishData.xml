@@ -1,0 +1,24 @@
+<!DOCTYPE configuration>
+<publishData>
+	<publishProfile profileName="thinkr - Web Deploy"
+		publishMethod="MSDeploy" publishUrl="thinkr.scm.azurewebsites.net:443"
+		msdeploySite="thinkr" userName="$thinkr"
+		userPWD="XwmXmPwZC0nGBEC0QmvsBucMFiFH0JHaA15Njk9iccthugzilsaL5Bxehf90"
+		destinationAppUrl="http://thinkr.azurewebsites.net"
+		SQLServerDBConnectionString="" mySQLDBConnectionString=""
+		hostingProviderForumLink="" controlPanelLink="http://windows.azure.com"
+		webSystem="WebSites">
+		<databases />
+	</publishProfile>
+	<publishProfile profileName="thinkr - FTP"
+		publishMethod="FTP"
+		publishUrl="ftp://waws-prod-bay-033.ftp.azurewebsites.windows.net/site/wwwroot"
+		ftpPassiveMode="True" userName="thinkr\$thinkr"
+		userPWD="XwmXmPwZC0nGBEC0QmvsBucMFiFH0JHaA15Njk9iccthugzilsaL5Bxehf90"
+		destinationAppUrl="http://thinkr.azurewebsites.net"
+		SQLServerDBConnectionString="" mySQLDBConnectionString=""
+		hostingProviderForumLink="" controlPanelLink="http://windows.azure.com"
+		webSystem="WebSites">
+		<databases />
+	</publishProfile>
+</publishData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 45 25 H 20 c -0.552 0 -1 0.447 -1 1 s 0.448 1 1 1 h 25 c 0.552 0 1 -0.447 1 -1
+S 45.552 25 45 25 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 20 19 h 10 c 0.552 0 1 -0.447 1 -1 s -0.448 -1 -1 -1 H 20 c -0.552 0 -1 0.447
+-1 1 S 19.448 19 20 19 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 45 33 H 20 c -0.552 0 -1 0.447 -1 1 s 0.448 1 1 1 h 25 c 0.552 0 1 -0.447 1 -1
+S 45.552 33 45 33 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 45 41 H 20 c -0.552 0 -1 0.447 -1 1 s 0.448 1 1 1 h 25 c 0.552 0 1 -0.447 1 -1
+S 45.552 41 45 41 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 45 49 H 20 c -0.552 0 -1 0.447 -1 1 s 0.448 1 1 1 h 25 c 0.552 0 1 -0.447 1 -1
+S 45.552 49 45 49 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 49 14.586 V 0 H 6 v 55 h 5 v 5 h 43 V 19.586 L 49 14.586 Z M 40 8.414 l 9 9 L
+50.586 19 H 40 V 8.414 Z M 8 53 V 2 h 39 v 10.586 L 39.414 5 H 11 v 48 H 8 Z M
+13 58 v -3 V 7 h 25 v 14 h 14 v 37 H 13 Z" />
+</vector>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/lobby_bg"
+    tools:controller=".client.controller.activity.FightrLoginActivity"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fightr_lobby_user_list"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="top"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <ScrollView
+        android:id="@+id/lobby_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_above="@+id/lobby_bottom_row"
+        android:layout_below="@+id/fightr_lobby_user_list"
+        android:layout_marginBottom="5dp"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fightr_lobby_user_messages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/lobby_bottom_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/emojiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_margin="8dp"
+                android:padding="6dp"
+                android:src="@drawable/lobby_ic_emoji_smile"
+                android:background="@drawable/bg_circle"
+                />
+
+            <EditText
+                android:id="@+id/lobby_msg_user_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/emojiButton"
+                android:layout_toStartOf="@+id/lobby_msg_send"
+                android:layout_alignTop="@+id/lobby_msg_send"
+                android:layout_alignBottom="@+id/lobby_msg_send"
+                android:hint="@string/lobby_chat_hint"
+                android:inputType="textCapSentences"
+
+                android:maxLines="4"
+                android:scrollHorizontally="true"
+                android:textSize="18sp"
+                android:paddingStart="10dp"
+                android:background="@drawable/bg_rectangle_text"
+                />
+
+            <ImageView
+                android:id="@+id/lobby_msg_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="8dp"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="7dp"
+                android:src="@drawable/ic_menu_send"
+                android:background="@drawable/bg_circle"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

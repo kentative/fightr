@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/fightr_header_name"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_rowWeight="0"
+        android:background="@drawable/bg_rectangle"
+        android:elevation="2dp"
+        android:gravity="center"
+        android:text="Kydan"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <ProgressBar
+        android:id="@+id/fightr_lobby_msg_user_msg"
+        style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fightr_header_name"
+        android:layout_toLeftOf="@+id/fightr_header_name"
+        android:max="5"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingBottom="5dp"
+        android:rotation="180"
+        android:progress="5"
+        android:progressDrawable="@drawable/progress_dark"
+        />
+
+    <ProgressBar
+        android:id="@+id/fightr_lobby_msg_user_msg_time"
+        style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/fightr_lobby_msg_user_msg"
+        android:layout_below="@+id/fightr_lobby_msg_user_msg"
+        android:max="5"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:progress="5"
+        android:progressTint="#1A1"
+        android:rotation="180"
+        />
+
+    <TextView
+        android:id="@+id/fightr_header_text_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fightr_select_user_image"
+        android:layout_below="@+id/fightr_header_action_gauge"
+        android:background="@drawable/bg_rectangle_blue"
+        android:includeFontPadding="true"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        android:text="Action"
+        android:textAlignment="textEnd"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <ProgressBar
+        android:id="@+id/fightr_header_action_gauge"
+        style="@android:style/Widget.Material.Light.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fightr_header_name"
+        android:layout_margin="5dp"
+        android:progressTint="#AAA"
+        />
+
+</RelativeLayout>

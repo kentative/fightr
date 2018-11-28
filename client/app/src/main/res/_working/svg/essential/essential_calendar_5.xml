@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 57 4 h -7 V 1 c 0 -0.553 -0.447 -1 -1 -1 h -7 c -0.553 0 -1 0.447 -1 1 v 3 H
+19 V 1 c 0 -0.553 -0.447 -1 -1 -1 h -7 c -0.553 0 -1 0.447 -1 1 v 3 H 3 C 2.447
+4 2 4.447 2 5 v 11 v 43 c 0 0.553 0.447 1 1 1 h 54 c 0.553 0 1 -0.447 1 -1 V 16
+V 5 C 58 4.447 57.553 4 57 4 Z M 43 2 h 5 v 3 v 3 h -5 V 5 V 2 Z M 12 2 h 5 v 3
+v 3 h -5 V 5 V 2 Z M 4 6 h 6 v 3 c 0 0.553 0.447 1 1 1 h 7 c 0.553 0 1 -0.447 1
+-1 V 6 h 22 v 3 c 0 0.553 0.447 1 1 1 h 7 c 0.553 0 1 -0.447 1 -1 V 6 h 6 v 9 H
+4 V 6 Z M 4 58 V 17 h 52 v 41 H 4 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 38 23 h -7 h -2 h -7 h -2 h -9 v 9 v 2 v 7 v 2 v 9 h 9 h 2 h 7 h 2 h 7 h 2 h 9
+v -9 v -2 v -7 v -2 v -9 h -9 H 38 Z M 31 25 h 7 v 7 h -7 V 25 Z M 38 41 h -7 v
+-7 h 7 V 41 Z M 22 34 h 7 v 7 h -7 V 34 Z M 22 25 h 7 v 7 h -7 V 25 Z M 13 25 h
+7 v 7 h -7 V 25 Z M 13 34 h 7 v 7 h -7 V 34 Z M 20 50 h -7 v -7 h 7 V 50 Z M 29
+50 h -7 v -7 h 7 V 50 Z M 38 50 h -7 v -7 h 7 V 50 Z M 47 50 h -7 v -7 h 7 V 50
+Z M 47 41 h -7 v -7 h 7 V 41 Z M 47 25 v 7 h -7 v -7 H 47 Z" />
+</vector>

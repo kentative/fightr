@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_genji"
+        circle:name="@string/ow_genji" />
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_tracer"
+        circle:name="@string/ow_tracer" />
+
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_hanzo"
+        circle:name="@string/ow_hanzo" />
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_mccree"
+        circle:name="@string/ow_mccree" />
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_reaper"
+        circle:name="@string/ow_reaper" />
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_symmetra"
+        circle:name="@string/ow_symmetra" />
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_mei"
+        circle:name="@string/ow_mei" />
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_dva"
+        circle:name="@string/ow_dva" />
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_junkrat"
+        circle:name="@string/ow_junkrat" />
+
+    <com.bytes.fightr.client.view.NamedImageView
+        android:id="@+id/menu_wheel_image_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_circle"
+        android:elevation="2dp"
+        android:src="@drawable/ow_icon_pharah"
+        circle:name="@string/ow_pharah" />
+</merge>

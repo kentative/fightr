@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_key_storage_settings"
+        android:title="@string/pref_network_title">
+
+        <SwitchPreference
+            android:key="pref_connect"
+            android:title="@string/pref_connect"
+            android:summary="@string/pref_connect_desc"
+            android:icon="@drawable/ic_play_for_work"
+            android:defaultValue="false" />
+
+        <EditTextPreference
+            android:dependency="pref_connect"
+            android:key="pref_server_url"
+            android:title="@string/pref_server_url"
+            android:summary="@string/pref_server_url_desc"
+            android:defaultValue="@string/default_server_url"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

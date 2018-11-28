@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Fightr</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_food">Food</string>
+    <string name="action_mood">Mood</string>
+    <string name="action_play">Play</string>
+
+    <!-- login information -->
+    <string name="prompt_server_address">"Address" </string>
+    <!--<string name="default_server_url">"ws://thinkr.azurewebsites.net/server/fightr" </string>-->
+    <string name="default_server_url">"ws://192.168.1.7:8080/server/fightr" </string>
+    <!--<string name="default_server_url">"ws://192.168.1.15:8080/server/fightr" </string>-->
+
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="server_url_not_defined">Server URL is not defined</string>
+    <string name="login_connection_active">Connection is already active</string>
+
+    <!-- Circle Menu Strings -->
+    <!-- Main list items -->
+    <string name="main_sample">Sample Circle menu</string>
+    <string name="main_no_rotation">No rotation</string>
+    <string name="main_attributes">XML attributes</string>
+    <string name="main_dynamic_attributes">Dynamic attributes</string>
+    <string name="main_any_view">Any view</string>
+    <string name="main_dynamic_children">Dynamic children</string>
+    <!-- Menu names -->
+    <string name="business_card">Business Card</string>
+    <string name="calendar">Calendar</string>
+    <string name="cloud">Cloud</string>
+    <string name="facebook">Facebook</string>
+    <string name="key">Key</string>
+    <string name="mail">Mail</string>
+    <string name="profile">Profile</string>
+    <string name="tag">Tag</string>
+    <string name="voice_search">Voice Search</string>
+
+    <!-- Overwatch Menu Names -->
+    <string name="ow_bastion">Bastion</string>
+    <string name="ow_dva">DVA</string>
+    <string name="ow_genji">Genji</string>
+    <string name="ow_hanzo">Hanzo</string>
+    <string name="ow_junkrat">Junkrat</string>
+    <string name="ow_mccree">McCree</string>
+    <string name="ow_mei">Mei</string>
+    <string name="ow_pharah">Pharah</string>
+    <string name="ow_reaper">Reaper</string>
+    <string name="ow_reinhardt">Reinhardt</string>
+    <string name="ow_roadhog">RoadHog</string>
+    <string name="ow_soldier76">Soldier76</string>
+    <string name="ow_symmetra">Symmetra</string>
+    <string name="ow_tracer">Tracer</string>
+    <string name="ow_widowmaker">Widowmaker</string>
+    <string name="ow_zarya">Zarya</string>
+    <string name="ow_zenyatta">Zenyatta</string>
+
+    <!-- Buttons -->
+    <string name="button_add">Add child</string>
+    <string name="button_remove">Remove child</string>
+    <!-- Menu items -->
+    <string name="speed">speed</string>
+    <string name="radius">radius</string>
+    <string name="is_rotating">isRotating</string>
+    <string name="first_child_position">firstChildPosition</string>
+    <!-- Dialog -->
+    <string name="dialog_speed">Set speed attribute</string>
+    <string name="dialog_speed_value">speed: %d</string>
+    <string name="dialog_radius">Set radius attribute</string>
+    <string name="dialog_radius_value">radius: %ddp</string>
+    <string name="dialog_is_rotating">Set isRotating attribute</string>
+    <string name="dialog_first_child_position">Set the firstChildPosition attribute</string>
+    <!-- Toasts -->
+    <string name="start_app">Starting application: %s</string>
+    <string name="center_click">Center has been clicked</string>
+    <string name="sample_text">But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</string>
+    <string name="sample_text_short">But I must explain to you how...</string>
+
+    <!-- Strings related to SettingsController -->
+    <string name="pref_connect">Connect to Server</string>
+    <string name="pref_connect_desc">Establish connection to server</string>
+    <string name="pref_server_url">Server URL</string>
+    <string name="pref_server_url_desc">The uri to the server,(i.e., protocol://host:port/path)</string>
+    <string name="pref_network_title">Network Configuration</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_conn_active">Connection is enabled</string>
+    <string name="pref_conn_inactive">Connection is disabled</string>
+    <string name="fightr_skill_01">Skill01</string>
+    <string name="fightr_skill_02">Skill02</string>
+    <string name="fightr_skill_03">Skill03</string>
+    <string name="fightr_skill_04">Skill04</string>
+    <string name="fightr_skill_05">Skill05</string>
+    <string name="fightr_skill_06">Skill06</string>
+    <string name="fightr_skill_07">Skill07</string>
+    <string name="fightr_skill_08">Skill08</string>
+    <string name="fightr_hint">Hanzo</string>
+    <string name="action_prepare_match">prepare match</string>
+    <string name="action_ready">Ready</string>
+    <string name="action_register">Register</string>
+    <string name="pref_server_title">Server Debug</string>
+    <string name="action_reset_server">Reset</string>
+    <string name="fightr_select">Fighter</string>
+    <string name="title_activity_fighter_list">Select Fighter</string>
+    <string name="action_debug_latency">Latency</string>
+    <string name="title_activity_fighter_login">Fightr</string>
+    <string name="login_auto_enabled">Connecting...</string>
+    <string name="login_auto_disabled">Disconnected</string>
+    <string name="login_server_url_invalid">Server address invalid</string>
+    <string name="login_msg_service_unavailable">Message service is not available. Unable to connect</string>
+    <string name="lobby_chat_hint">Type a message...</string>
+    <string name="pref_account_title">Account Configuration</string>
+
+    <!-- Circle Menu Strings -->
+
+
+</resources>
